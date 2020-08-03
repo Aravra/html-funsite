@@ -1,0 +1,143 @@
+<html>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div>
+        <canvas style="background-color: rgb(96, 177, 243); width:100cm; height:150px; left:-20px;top:  px;position: relative;"></canvas>
+        <h1 id="t"
+        style="text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(255, 123, 0);;position: relative;font-size:xx-large;top: -160px;"
+        >Computerpart
+pairing</h1>
+<span id="hom" style="font-size:30px;cursor:pointer;position: relative;top: -230px;" onclick="openNav()">&#9776;</span>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="pairs.html">Build-Pairs</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+        <p style="text-align: center;position: relative;top: -200px;">Made by Arav Rambali</p>
+    </div>
+    <canvas style="background-color: rgb(160, 38, 38); width:10000px; height:50px; left:-1000px;top: -170px;position: relative;"></canvas>
+    <p id="a" style="text-align: center ;position: relative;font-size: xx-large;top: -250px;">News</p>
+    <hr style="top: -240px;position: relative;width: 10000px; left: -100px;">
+    <h2 id="ti" style="top: -240px;position: relative; text-align: left; font-size:20px ;">Big Navi is Comming!</h2>
+    <p id="kl" style="position: relative;top: -240px;font-family: sans-serif; font-size: 17px;">In a couple of months AMD wil release the Big Navi gpu's, the best of these gpu's expect to outperform the best consumergrade gpu on the market(rtx 2080 ti) by 40%. The playstation 5 will also use the same architecture as the new Big Navi gpu's. The expected release date is in october 2020.</p>
+    <img id="im1" style="width: 400px;position: relative; top: -230px; border: 20px;" src="https://cdn.statically.io/img/optocrypto.com/wp-content/uploads/2020/04/Big-Navi-would-bring-a-huge-increase-in-revenue-for-AMD.jpg?f=auto" alt="Amd gpu">
+    <hr id="sp" style="top: -220px;position: relative;width: 10000px; left: -100px;">
+    <h2 id="tik" style="top: -220px;position: relative; text-align: left; font-size:20px ;">Amd's new XT cpu's</h2>
+    <p id="klk" style="position: relative;top: -220px;font-family: sans-serif; font-size: 17px;">Amd has released its new XT cpu's, but is it worth buying? I only give 100 to 200mhz improvements and the X versions are cheaper. With so litle improvement and the zen 3 cpu's comming our way it isn't worth it.</p>
+    <img id="im2" style="width: 400px;position: relative; top: -220px; border: 20px;" src=" https://cdn.wccftech.com/wp-content/uploads/2020/06/AMD-Ryzen-3000-XT-CPUs_Matisse-Refresh_Ryzen-9-3900XT-Ryzen-7-3800XT-Ryzen-5-3600XT_1-1-2060x1159.jpg" alt="Amd cpu">
+    <hr id="spp" style="top: -220px;position: relative;width: 10000px; left: -100px;">
+    <h2 id="tikk" style="top: -220px;position: relative; text-align: left; font-size:20px ;">Intel's new 10th gen cpu's</h2>
+    <p id="klkk" style="position: relative;top: -220px;font-family: sans-serif; font-size: 17px;">Intel has released it's new 10th gen cpu's, but how much perfermonce boost over 9th gen does it have? The 10th gen cpu's become verry easy verry hot and you need a beevy cooler to get to the advertised 5.3Ghz. If you have the budget and have the cooler, you can buy them, but in the price-standpoint they aren't very good.</p>
+    <img id="im3" style="width: 400px;position: relative; top: -220px; border: 20px;" src="https://cdn.mos.cms.futurecdn.net/kqejCtXyBQFF9EqHF9KYGT.jpg" alt="Intel cpu's">
+    <hr id="sppp" style="top: -220px;position: relative;width: 10000px; left: -100px;">
+    <p style="position: relative; top: -100px;">E-mail me at: <a href="mailto:aravrambali@gmail.com" >aravrambali@gmail.com</button></p>
+    <div id="dpi" style="height: 1in; width: 1in; left: 100%; position: fixed; top: 100%;"></div>
+        
+        
+</body>
+<style>
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(255, 123, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    var dpi_x = document.getElementById('dpi').offsetWidth;
+var dpi_y = document.getElementById('dpi').offsetHeight;
+var width = screen.width / dpi_x;
+var height = screen.height / dpi_y;
+var norm = 27;
+var title = 32;
+if(width/height >1){
+    document.getElementById("kl").style.fontSize = norm + "px";
+    document.getElementById("ti").style.fontSize =title + "px";
+    document.getElementById("klk").style.fontSize = norm + "px";
+    document.getElementById("tik").style.fontSize =title +  "px";
+    document.getElementById("klkk").style.fontSize =norm +  "px";
+    document.getElementById("tikk").style.fontSize =title +  "px";
+    
+
+    document.getElementById("hom").style.top = "-280px";
+
+    document.getElementById("a").style.top = "-250px";
+
+    document.getElementById("t").style.fontSize = "50px";
+
+    document.getElementById("im1").style.top = "-580px";
+    document.getElementById("im1").style.right = "-800px";
+    document.getElementById("im2").style.top = "-800px";
+   document.getElementById("im2").style.right = "-800px";
+   document.getElementById("im3").style.top = "-1100px";
+   document.getElementById("im3").style.right = "-800px";
+
+    document.getElementById("kl").style.right = "-500px";
+    document.getElementById("kl").style.width = "500px";
+    document.getElementById("kl").style.left = "0px";
+    document.getElementById("klk").style.right = "-500px";
+    document.getElementById("klk").style.width = "500px";
+    document.getElementById("klk").style.left = "0px";
+    document.getElementById("klkk").style.right = "-500px";
+    document.getElementById("klkk").style.width = "500px";
+    document.getElementById("klkk").style.left = "0px";
+
+    document.getElementById("sp").style.top = "-580px";
+    document.getElementById("spp").style.top = "-800px";
+    document.getElementById("sppp").style.top = "-1000px";
+    document.getElementById("tik").style.top = "-580px";
+    document.getElementById("tikk").style.top = "-800px";
+    document.getElementById("klk").style.top = "-580px";
+    document.getElementById("klkk").style.top = "-800px";
+}
+</script>
+</html>
