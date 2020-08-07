@@ -4,4 +4,4 @@ with the free webhost i got a database that runs phpmyadmin, i used this in my p
 
 My experience: html was new to me, but it was surprisingly easy to learn. Maybe beceause of my background in c#
 
-link to websiste: https://partspicker.000webhostapp.com/pairs.html
+link to websiste: https://partspicker.000webhostapp.com/pairs.php
