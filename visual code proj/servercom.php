@@ -4,8 +4,8 @@ $name = $_POST['fname'];
 $stars = $_POST['stars'];
 $comment = $_POST['comment'];
 $servername = "localhost";
-$username = "id14529920_arav";
-$password = "Aravtime@2006";
+$username = "xxxx";
+$password = "xxxx";
 $dbname = "id14529920_computersite";
 
 // Create connection
