@@ -1,6 +1,6 @@
 <?php
-$username = "id14529920_arav"; 
-$password = "Aravtime@2006"; 
+$username = "xxxx"; 
+$password = "xxxx"; 
 $database = "id14529920_computersite"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
 $query = "SELECT * FROM pairs";
